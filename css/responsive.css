@@ -181,7 +181,7 @@ Version:	1.1
     #header .slicknav_menutxt {
         text-shadow: none;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 0px;
     }
     #breadcrumbs h2 {
         font-size: 24px;
