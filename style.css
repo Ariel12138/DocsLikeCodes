@@ -254,7 +254,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-    height: 500px;
+    height: 580px;
     position: relative;
 }
 
@@ -280,7 +280,7 @@
     -ms-flex-pack: center;
     justify-content: center;
     width: 100%;
-    height: 500px;
+    height: 580px;
 }
 
 #j-slider .slider-inner {
