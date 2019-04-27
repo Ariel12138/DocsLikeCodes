@@ -243,22 +243,22 @@
   Slider CSS
 =========================*/
 
-#j-slider {
+#hero {
     position: relative;
     overflow: hidden;
     height: 580px;
 }
 
-#j-slider .single-slider {
+#hero .single-slider {
+    background-image: url(images/slider/slider-bg1.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    position: relative;
     height: 580px;
     position: relative;
 }
 
-#j-slider .single-slider:before {
+#hero .single-slider:before {
     position: absolute;
     left: 0;
     top: 0;
@@ -268,7 +268,7 @@
     content: "";
 }
 
-#j-slider .slide-text {
+#hero .slide-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -281,13 +281,14 @@
     justify-content: center;
     width: 100%;
     height: 580px;
+    text-align: center;
 }
 
-#j-slider .slider-inner {
+#hero .slider-inner {
     display: inline-block;
 }
 
-#j-slider .slide-text h1 {
+#hero .slide-text h1 {
     color: #fff;
     font-size: 42px;
     font-weight: 1000;
@@ -298,7 +299,7 @@
     position: relative;
 }
 
-#j-slider .slide-text h1:before {
+#hero .slide-text h1:before {
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -308,46 +309,45 @@
     height: 2px;
 }
 
-#j-slider .slide-text.center h1:before {
+#hero .slide-text.center h1:before {
     left: 0%;
 }
 
-#j-slider .slide-text h1 span {
+#hero .slide-text h1 span {
     display: block;
 }
 
-#j-slider .slide-text p {
+#hero .slide-text p {
     color: #fff;
     margin-bottom: 30px;
 }
 
-#j-slider .text-inner {
+#hero .text-inner {
     padding: 30px;
     border-radius: 30px;
 }
 
-#j-slider .slide-button .button {
+#hero .slide-button .button {
     color: #fff;
     margin: 0 10px 0 0;
     position: relative;
-    background: #252525;
+    background: #C0392B;
     padding: 10px 38px;
     overflow: hidden;
     font-size: 20px;
     z-index: 3;
     text-transform: capitalize;
-    background: transparent;
     border-radius: 3px;
 }
 
-#j-slider .owl-nav {
+#hero .owl-nav {
     position: absolute;
     top: 50%;
     left: 0;
     width: 100%;
 }
 
-#j-slider .owl-nav div {
+#hero .owl-nav div {
     position: absolute;
     top: 50%;
     width: 50px;
@@ -361,27 +361,27 @@
     border-radius: 100%;
 }
 
-#j-slider .owl-nav div.owl-prev {
+#hero .owl-nav div.owl-prev {
     left: 0;
 }
 
-#j-slider .owl-nav div.owl-next {
+#hero .owl-nav div.owl-next {
     right: 0;
 }
 
-#j-slider .animate-text {
+#hero .animate-text {
     height: 100%;
 }
 
-#j-slider .animate-text .single-slider {
+#hero .animate-text .single-slider {
     position: relative;
 }
 
-#j-slider .animate-text .slide-text.center {
+#hero .animate-text .slide-text.center {
     max-width: 800px;
 }
 
-#j-slider .animate-text .slide-text h1 {
+#hero .animate-text .slide-text h1 {
     margin: 0 0 15px;
     font-weight: 800;
     text-transform: uppercase;
@@ -389,11 +389,11 @@
     font-size: 50px;
 }
 
-#j-slider .animate-text .slide-text h1 span {
+#hero .animate-text .slide-text h1 span {
     display: block;
 }
 
-#j-slider .animate-text .info {
+#hero .animate-text .info {
     text-transform: uppercase;
     display: inline-block;
     font-size: 35px;
@@ -402,17 +402,17 @@
     padding: 0 10px;
 }
 
-#j-slider .animate-text span {
+#hero .animate-text span {
     display: block;
     color: #88B749;
     padding: 0;
 }
 
-#j-slider .animate-text .typed-cursor {
+#hero .animate-text .typed-cursor {
     display: none;
 }
 
-#j-slider .animate-text .slide-text p {
+#hero .animate-text .slide-text p {
     color: #fff;
     font-size: 15px;
 }
