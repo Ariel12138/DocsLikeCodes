@@ -13,7 +13,8 @@
                             <h2></h2>
                             <ul>
                                 <li><a href="{{ '/' | prepend: site.baseurl }}">主页</a></li>
-                                <li class="active">{{ page.title }}</li>
+                                <li><a href="{{ '/categories/' | prepend: site.baseurl }}">博客</a></li>
+                                <li class="inactive"><a>{{ page.title }}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -29,15 +30,15 @@
                                 <div class="blog-content">
                                     <h2>{{ page.title }}</h2>
                                     <div class="meta">
-                                        <span><i class="fa fa-calendar"></i>{{ post.date | date:"%F" }}</span>
+                                        <span><i class="fa fa-calendar"></i>{{ page.date | date:"%F" }}</span>
                                     </div>
+                                    <div style="font-size: 16px;">
                                     {{ content }}
+                                    </div>
                                 </div>
                             </div>
-                            <!--/ End Single blog -->
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12">
-                            <!-- Blog Sidebar -->
                             <div class="blog-sidebar">
                                 <div class="single-sidebar latest">
                                     <h2>博客推荐</h2>
@@ -51,11 +52,8 @@
                                     </div>
                                     {% endif %}
                                     {% endfor %}
-                                </div>
-                                <!--/ End Single Sidebar -->
-    
+                                </div> 
                             </div>
-                            <!--/ End Blog Sidebar -->
                         </div>
                     </div>
                 </div>

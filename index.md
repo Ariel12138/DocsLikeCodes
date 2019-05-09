@@ -321,7 +321,7 @@ title: 文档代码化开发高级研修班
                                         <span><i class="fa fa-calendar"></i>{{ post.date | date:"%F" }}</span>
                                     </div>
                                     <p>{{ post.post_description }}</p>
-                                    <a href="blog-single1.html" class="btn">阅读更多<i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn">阅读更多<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                                 </div>
                         </div>

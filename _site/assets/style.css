@@ -229,7 +229,7 @@
 #header.sticky .logo a,
 #header.sticky .nav li a,
 #header.sticky .nav li.active a {
-    color:#000;
+    color:#333;
 }
 
 #header.sticky .nav li .sub-menu {
@@ -555,7 +555,7 @@
 
 #about-us .single-tab {
     margin-top: 20px;
-    height: 100px;
+    min-height: 100px;
     position: relative;
     padding: 12px 12px 12px 50px;
     border-radius: 5px;
@@ -1589,7 +1589,7 @@
 }
 
 #blog .blog-content {
-    padding: 20px 0 0;
+    padding: 20px 10px 0;
 }
 
 #blog .blog-content h2 {
@@ -1621,7 +1621,7 @@
 
 #blog .blog-content p {
     color: #666;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 #blog .blog-content .btn {
