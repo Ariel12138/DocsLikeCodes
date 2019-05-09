@@ -1,0 +1,43 @@
+---
+layout: default
+title: 博客
+---
+    <section id="blog" class="archive section page">
+            <div class="container">
+                <div class="row">
+                    {% for post in site.posts %}
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <!-- Single blog -->
+                        <div class="single-blog">
+                            <div class="blog-box">
+                                <div class="blog-content">
+                                    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                                    <div class="meta">
+                                        <span><i class="fa fa-calendar"></i>{{ post.date | date:"%F" }}</span>
+                                    </div>
+                                    <p>{{ post.post_description }}</p>
+                                    <a href="blog-single1.html" class="btn">阅读更多<i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ End Single blog -->
+                    </div>
+                    {% endfor %}
+    
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Start Pagination 
+                        <ul class="pagination">
+                            <li class="prev"><a href="#"><span class="fa fa-angle-left"></span></a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li class="next"><a href="#"><span class="fa fa-angle-right"></span></a></li>
+                        </ul>
+                        / End Pagination -->
+                    </div>
+                </div>
+            </div>
+        </section>

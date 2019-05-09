@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    {% include head.html %}
+    <body>
+
+        
+        {% include header.html %}
+        <section id="breadcrumbs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2></h2>
+                            <ul>
+                                <li><a href="{{ '/' | prepend: site.baseurl }}">主页</a></li>
+                                <li class="active">{{ page.title }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="blog" class="single section page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <!-- Single blog -->
+                            <div class="single-blog">
+                                <div class="blog-content">
+                                    <h2>{{ page.title }}</h2>
+                                    <div class="meta">
+                                        <span><i class="fa fa-calendar"></i>{{ post.date | date:"%F" }}</span>
+                                    </div>
+                                    {{ content }}
+                                </div>
+                            </div>
+                            <!--/ End Single blog -->
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <!-- Blog Sidebar -->
+                            <div class="blog-sidebar">
+                                <div class="single-sidebar latest">
+                                    <h2>博客推荐</h2>
+                                    {% for post in site.posts %}
+                                    {% if post.title != page.title %}
+                                    <div class="single-post">
+                                        <div class="post-info">
+                                            <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h4>
+                                            <p>{{ post.date | date:"%F" }}</p>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                                <!--/ End Single Sidebar -->
+    
+                            </div>
+                            <!--/ End Blog Sidebar -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        {% include footer.html %}
+        
+        {% include script.html %}
+
+    </body>
+</html>
