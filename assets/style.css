@@ -94,11 +94,11 @@
 }
 
 #header .nav li a {
-    color: #555;
+    color: #333;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     display: block;
-    font-size: 16px;
+    font-size: 15px;
     border-radius: 3px;
     background: transparent;
     position: relative;
@@ -2427,8 +2427,9 @@
 }
 
 #footer .social li {
-    display: inline-block;
+    display:block;
     margin-right: 10px;
+    margin-bottom: 10px;
     color: #fff;
     font-weight: 500;
 }
@@ -2444,9 +2445,6 @@
     line-height: 38px;
     text-align: center;
     color: #fff;
-    border: 1px solid #eee;
-    color: #fff;
-    border-radius: 100%;
 }
 
 #footer .social li:hover a,
@@ -2456,8 +2454,8 @@
 }
 
 #footer .nav li {
-    display: inline-block;
-    margin-right: 40px;
+    display: block;
+    margin-bottom: 15px;
 }
 
 #footer .nav li:last-child {
@@ -2466,12 +2464,17 @@
 
 #footer .nav li a {
     padding: 0;
+    text-align: left;
     text-transform: uppercase;
     font-size: 15px;
     color: #eee;
     background: transparent;
 }
 
+#footer .nav a:hover,
+#footer .nav li.active a {
+    color: #C0392B;
+}
 #footer .copyright {
     background: #151515;
     padding: 8px 0;

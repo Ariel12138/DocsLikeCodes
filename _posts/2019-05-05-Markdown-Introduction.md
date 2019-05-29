@@ -4,7 +4,7 @@ title:  写作利器 Markdown
 date:   2019-05-05 10:28:00 +0800
 categories: blog
 tags: [markdown]
-post_description: markdownmarkdownmarkdown
+post_description: 简单介绍轻量级标记语言 Markdown
 ---
 
 提到写作工具，大部分人一定首先想到 Microsoft Word，它功能强大，集成度高，应用范围广，是日常生活中使用最多的。然而功能强大也经常带来认知负荷增加等问题。若应用于网络出版，由 word 文档到 HTML 文件的格式转换也将成为一大难题。  
