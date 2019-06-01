@@ -303,8 +303,8 @@ title: 文档代码化开发高级研修班
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12  wow fadeIn">
                     <div class="section-title center">
-                        <h2><span>最新博客</span></h2>
-                        <p>分享技术文档知识和课程相关资料</p>
+                        <h2><span><a class="post" href="{{ '/categories/' | prepend: site.baseurl }}">最新博客</a></span></h2>
+                        <p>分享技术写作和课程相关资料</p>
                     </div>
                 </div>
             </div>
