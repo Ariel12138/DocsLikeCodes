@@ -2012,6 +2012,14 @@
 }
 
 
+#blog a.post:hover
+{
+    color: #333;
+}
+#blog a.post
+{
+    color: #C0392B
+}
 /*=======================
   End Blog CSS
 =========================*/
@@ -2493,6 +2501,7 @@
     -moz-animation: blink 1s infinite;
     animation: blink 1s infinite;
 }
+
 
 
 /*=======================

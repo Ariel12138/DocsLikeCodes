@@ -127,14 +127,14 @@ Version:	1.1
         });
 
         /*======================================
-        // Portfolio Carousel
+        // blog Carousel
         ======================================*/
-        $(".portfolio-carousel").owlCarousel({
+        $(".blog-carousel").owlCarousel({
             loop: true,
-            autoplay: true,
+            autoplay: false,
             autoplayHoverPause: true,
             smartSpeed: 500,
-            margin: 15,
+            margin: 0,
             nav: true,
             dots: false,
             items: 3,

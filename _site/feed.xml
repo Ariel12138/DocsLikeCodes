@@ -1,13 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-29T15:37:37+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">文档代码化开发高级研修班</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">工具介绍篇</title><link href="http://localhost:4000/blog/2019/05/28/Prepararion.html" rel="alternate" type="text/html" title="工具介绍篇" /><published>2019-05-28T10:28:00+08:00</published><updated>2019-05-28T10:28:00+08:00</updated><id>http://localhost:4000/blog/2019/05/28/Prepararion</id><content type="html" xml:base="http://localhost:4000/blog/2019/05/28/Prepararion.html">&lt;h4 id=&quot;git-和-github-简介&quot;&gt;Git 和 Github 简介&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-01T22:27:53+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">文档代码化开发高级研修班</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Git &amp;amp; Github 简介</title><link href="http://localhost:4000/blog/2019/05/28/Prepararion.html" rel="alternate" type="text/html" title="Git &amp; Github 简介" /><published>2019-05-28T10:28:00+08:00</published><updated>2019-05-28T10:28:00+08:00</updated><id>http://localhost:4000/blog/2019/05/28/Prepararion</id><content type="html" xml:base="http://localhost:4000/blog/2019/05/28/Prepararion.html">&lt;h4 id=&quot;版本控制工具-git&quot;&gt;版本控制工具 Git&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Git 是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理&lt;/p&gt;
-  &lt;h3 id=&quot;heading&quot;&gt;Heading&lt;/h3&gt;
+
+  &lt;p&gt;版本控制是指对软件开发过程中各种程序代码、配置文件及说明文档等文件变更的管理，是软件配置管理的核心思想之一&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;markdown-简单教程&quot;&gt;Markdown 简单教程&lt;/h4&gt;
+&lt;p&gt;像软件版本控制一样对文档进行版本控制，是文档代码化 (Docs As Code) 的核心特点之一，版本控制不再是手动管理多份内容类似的 Word 文档，而是对单个文档的持续的修订与变化追踪。&lt;/p&gt;
 
-&lt;h4 id=&quot;写作工具推荐-vscode&quot;&gt;写作工具推荐： VSCode&lt;/h4&gt;</content><author><name></name></author><summary type="html">Git 和 Github 简介</summary></entry><entry><title type="html">写作利器 Markdown</title><link href="http://localhost:4000/blog/2019/05/05/Markdown-Introduction.html" rel="alternate" type="text/html" title="写作利器 Markdown" /><published>2019-05-05T10:28:00+08:00</published><updated>2019-05-05T10:28:00+08:00</updated><id>http://localhost:4000/blog/2019/05/05/Markdown-Introduction</id><content type="html" xml:base="http://localhost:4000/blog/2019/05/05/Markdown-Introduction.html">&lt;p&gt;提到写作工具，大部分人一定首先想到 Microsoft Word，它功能强大，集成度高，应用范围广，是日常生活中使用最多的。然而功能强大也经常带来认知负荷增加等问题。若应用于网络出版，由 word 文档到 HTML 文件的格式转换也将成为一大难题。&lt;br /&gt;
+&lt;p&gt;相关教程参考：
+&lt;a class=&quot;post&quot; href=&quot;https://www.lynda.com/Git-tutorials/Up-Running-Git-GitHub/409275-2.html&quot;&gt;简单入门&lt;/a&gt;
+&lt;a class=&quot;post&quot; href=&quot;https://www.liaoxuefeng.com/wiki/896043488029600&quot;&gt; 详细教程&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;项目托管平台-github&quot;&gt;项目托管平台 Github&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Github 是一个面向开源及私有软件项目的托管平台，因为只支持 Git 作为唯一的版本库格式进行托管，故名Github。&lt;/p&gt;
+
+  &lt;p&gt;作为开源代码库以及版本控制系统，Github拥有超过900万开发者用户。随着越来越多的应用程序转移到了云上，Github已经成为了管理软件开发以及发现已有代码的首选方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Github 主要用于项目托管和协同工作，也可以使用 Github Pages 将托管的内容发布为网页。&lt;/p&gt;
+
+&lt;p&gt;相关教程参考：&lt;a class=&quot;post&quot; href=&quot;https://www.runoob.com/w3cnote/git-guide.html&quot;&gt;Github 教程&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">版本控制工具 Git</summary></entry><entry><title type="html">写作利器 Markdown</title><link href="http://localhost:4000/blog/2019/05/05/Markdown-Introduction.html" rel="alternate" type="text/html" title="写作利器 Markdown" /><published>2019-05-05T10:28:00+08:00</published><updated>2019-05-05T10:28:00+08:00</updated><id>http://localhost:4000/blog/2019/05/05/Markdown-Introduction</id><content type="html" xml:base="http://localhost:4000/blog/2019/05/05/Markdown-Introduction.html">&lt;p&gt;提到写作工具，大部分人一定首先想到 Microsoft Word，它功能强大，集成度高，应用范围广，是日常生活中使用最多的。然而功能强大也经常带来认知负荷增加等问题。若应用于网络出版，由 word 文档到 HTML 文件的格式转换也将成为一大难题。&lt;br /&gt;
 所以有没有一种更简洁，更专注于网络发布的工具呢？这样的想法早已成为现实，要归功于 Markdown 的存在。2004年， John Gruber 发布首版 Markdown，允许人们”使用易读易写的纯文本格式编写文档，然后选择性转换成有效的 XHTML文档”。虽然已经有十多年历史，Markdown 似乎正在进入其发展的黄金时代，&lt;/p&gt;
 
 &lt;h5 id=&quot;markdown-概览&quot;&gt;Markdown 概览&lt;/h5&gt;

@@ -310,9 +310,9 @@ title: 文档代码化开发高级研修班
             </div>
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="blog">
+                    <div class="blog blog-carousel">
                         {% for post in site.posts %}
-                        <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="single-blog">
                         <div class="blog-box">
                                 <div class="blog-content">
