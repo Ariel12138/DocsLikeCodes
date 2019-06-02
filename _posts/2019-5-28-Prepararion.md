@@ -26,6 +26,8 @@ post_description: 培训班课前小知识：版本控制
 >   
 > 作为开源代码库以及版本控制系统，Github拥有超过900万开发者用户。随着越来越多的应用程序转移到了云上，Github已经成为了管理软件开发以及发现已有代码的首选方法。 
 
-Github 主要用于项目托管和协同工作，也可以使用 Github Pages 将托管的内容发布为网页。
+Github 主要用于项目托管和协同工作，也可以使用 Github Pages 将托管的内容发布为网页。  
+  
+**课前需注册 Github 账号。**
 
 相关教程参考：<a class="post" href="https://www.runoob.com/w3cnote/git-guide.html">Github 教程</a>

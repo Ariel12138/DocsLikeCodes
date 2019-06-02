@@ -11,7 +11,7 @@
         <meta name="description" content="文档代码化开发高级研修班">
     
         <!-- Title Tag -->
-        <title>写作利器 Markdown - </title>
+        <title>写作工具：VSCode - </title>
     
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="/assets/images/favicon.png">
@@ -87,7 +87,7 @@
                             <ul>
                                 <li><a href="/">主页</a></li>
                                 <li><a href="/categories/">博客</a></li>
-                                <li class="inactive"><a>写作利器 Markdown</a></li>
+                                <li class="inactive"><a>写作工具：VSCode</a></li>
                             </ul>
                         </div>
                     </div>
@@ -101,24 +101,37 @@
                             <!-- Single blog -->
                             <div class="single-blog">
                                 <div class="blog-content">
-                                    <h2>写作利器 Markdown</h2>
+                                    <h2>写作工具：VSCode</h2>
                                     <div class="meta">
-                                        <span><i class="fa fa-calendar"></i>2019-05-05</span>
+                                        <span><i class="fa fa-calendar"></i>2019-06-02</span>
                                     </div>
                                     <div style="font-size: 16px;">
-                                    <p>提到写作工具，大部分人一定首先想到 Microsoft Word，它功能强大，集成度高，应用范围广，是日常生活中使用最多的。然而功能强大也经常带来认知负荷增加等问题。若应用于网络出版，由 word 文档到 HTML 文件的格式转换也将成为一大难题。<br />
-所以有没有一种更简洁，更专注于网络发布的工具呢？这样的想法早已成为现实，要归功于 Markdown 的存在。2004年， John Gruber 发布首版 Markdown，允许人们”使用易读易写的纯文本格式编写文档，然后选择性转换成有效的 XHTML文档”。虽然已经有十多年历史，Markdown 似乎正在进入其发展的黄金时代，</p>
+                                    <p>代码化开发文档，当然也要用代码编辑器来写文档，本篇主要介绍微软旗下的 Visual Studio Code（简称VSCode）。</p>
 
-<h5 id="markdown-概览">Markdown 概览</h5>
+<p>VSCode 是一款轻量但强大的开源代码编辑器，支持 Windows，OS X 和 Linux，内置JavaScript、TypeScript和Node.js支持，而且拥有丰富的插件生态系统，可通过安装插件来支持其他语言。</p>
 
-<p>Markdown，是一种标记语言（ Markup Language ），可使用普通的文本编辑器进行编写。在某种程度上， Markdown 应用程序类似于纯文本编辑程序，如 Windows 中的记事本或 MacOS 中的 TextEdit，不需要设置字体，不需要调整对齐，没有颜色，没有注释，只剩下写作者和文本。<br />
-与普通文本编辑器不同的是，使用Markdown写作的文本能够同时具有一定格式，在写作时实现快速排版和简单的格式设定。可以设定标题级别，进行加粗、倾斜、生成列表等格式操作，这些都类似于在HTML中可进行的格式操作。<br />
-Markdown的格式编辑十分便捷，将格式与文本融为一体。比如定义一个一级标题，可以用<code class="highlighter-rouge"># Heading 1</code>表示，二级标题是<code class="highlighter-rouge">## Heading 2</code>，以此类推；比如加粗某个词语，可以用<code class="highlighter-rouge">**Some Word**</code>……</p>
+<p>微软将 VSCode 定位于编辑器和 IDE（集成开发环境，具有编辑、编译和调试代码等功能）之间。对软件开发来说，它占内存小，轻量，界面简单友好，插件多样，能满足大部分需求。对于技术传播来说，它集成git，提供 Markdown 预览，也是管理项目和开发文档的好帮手。</p>
 
-<h5 id="工作原理">工作原理</h5>
+<h4 id="vscode-安装">VSCode 安装</h4>
 
-<p>Markdown 网页发布的工作原理，就是将其纯文本文档内容处理为 HTML 格式（当然，在纯文本层级也是简洁可读的）。与网页开发相同，其他样式如字体、高亮颜色的设置则通过 CSS 来设定，也可以在 Markdown 文档中直接添加样式标签来实现特定需求，比如一个一级标题需要居中，可以通过<code class="highlighter-rouge">&lt;center&gt; # Heading 1 &lt;/center&gt;</code>来实现。<br />
-Markdown 的实现可用于十几种编程语言，适用于几乎所有主要的博客平台。对技术文档写作者来说，又是最轻量简单，易于发布的选择。</p>
+<p>VSCode 完全免费，<a href="https://code.visualstudio.com/Download" class="post" target="_blank">点击此处</a>选择适合自己的版本进行安装。</p>
+
+<h4 id="vscode-功能简介及插件推荐">VSCode 功能简介及插件推荐</h4>
+
+<p><img src="/assets/images/postpic/icons.png" style="float:right; max-height:150px" />
+主界面左边有五个按钮，从上到下依次是：<br />
+<strong>文件管理</strong>：管理当前文件夹的文件，可以新建、删除、移动文件等<br />
+<strong>查找</strong>：在文件内进行查找，可进行相应的查找替换操作<br />
+<strong>Git 资源控制</strong>：连接部署 Git 相关<br />
+<strong>代码调试</strong>：主要用于代码开发的调试工作<br />
+<strong>插件管理</strong>：可打开、关闭、下载、删除相应插件</p>
+
+<p><strong>插件推荐</strong>：Markdown All In One<br />
+<img src="/assets/images/postpic/md.png" style="float:left; max-height:150px" />
+点击主界面“插件管理”功能，查找该插件，下载并启用插件。
+该插件支持Markdown 语法高亮，并对 Markdown 文件增加预览和快捷键等功能。</p>
+
+<p>完成安装工作并启用插件后，就试试自己探索用 Markdown 在VSCode 中进行创作啦！</p>
 
                                     </div>
                                 </div>
@@ -130,13 +143,6 @@ Markdown 的实现可用于十几种编程语言，适用于几乎所有主要�
                                     <h2>博客推荐</h2>
                                     
                                     
-                                    <div class="single-post">
-                                        <div class="post-info">
-                                            <h4><a href="/blog/2019/06/02/vscode.html">写作工具：VSCode</a></h4>
-                                            <p>2019-06-02</p>
-                                        </div>
-                                    </div>
-                                    
                                     
                                     
                                     <div class="single-post">
@@ -147,6 +153,13 @@ Markdown 的实现可用于十几种编程语言，适用于几乎所有主要�
                                     </div>
                                     
                                     
+                                    
+                                    <div class="single-post">
+                                        <div class="post-info">
+                                            <h4><a href="/blog/2019/05/05/Markdown-Introduction.html">写作利器 Markdown</a></h4>
+                                            <p>2019-05-05</p>
+                                        </div>
+                                    </div>
                                     
                                     
                                     

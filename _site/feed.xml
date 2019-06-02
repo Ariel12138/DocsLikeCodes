@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-01T22:37:34+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">文档代码化开发高级研修班</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Git &amp;amp; Github 简介</title><link href="http://localhost:4000/blog/2019/05/28/Prepararion.html" rel="alternate" type="text/html" title="Git &amp; Github 简介" /><published>2019-05-28T10:28:00+08:00</published><updated>2019-05-28T10:28:00+08:00</updated><id>http://localhost:4000/blog/2019/05/28/Prepararion</id><content type="html" xml:base="http://localhost:4000/blog/2019/05/28/Prepararion.html">&lt;h4 id=&quot;版本控制工具-git&quot;&gt;版本控制工具 Git&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-02T23:21:23+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">文档代码化开发高级研修班</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">写作工具：VSCode</title><link href="http://localhost:4000/blog/2019/06/02/vscode.html" rel="alternate" type="text/html" title="写作工具：VSCode" /><published>2019-06-02T20:28:00+08:00</published><updated>2019-06-02T20:28:00+08:00</updated><id>http://localhost:4000/blog/2019/06/02/vscode</id><content type="html" xml:base="http://localhost:4000/blog/2019/06/02/vscode.html">&lt;p&gt;代码化开发文档，当然也要用代码编辑器来写文档，本篇主要介绍微软旗下的 Visual Studio Code（简称VSCode）。&lt;/p&gt;
+
+&lt;p&gt;VSCode 是一款轻量但强大的开源代码编辑器，支持 Windows，OS X 和 Linux，内置JavaScript、TypeScript和Node.js支持，而且拥有丰富的插件生态系统，可通过安装插件来支持其他语言。&lt;/p&gt;
+
+&lt;p&gt;微软将 VSCode 定位于编辑器和 IDE（集成开发环境，具有编辑、编译和调试代码等功能）之间。对软件开发来说，它占内存小，轻量，界面简单友好，插件多样，能满足大部分需求。对于技术传播来说，它集成git，提供 Markdown 预览，也是管理项目和开发文档的好帮手。&lt;/p&gt;
+
+&lt;h4 id=&quot;vscode-安装&quot;&gt;VSCode 安装&lt;/h4&gt;
+
+&lt;p&gt;VSCode 完全免费，&lt;a href=&quot;https://code.visualstudio.com/Download&quot; class=&quot;post&quot; target=&quot;_blank&quot;&gt;点击此处&lt;/a&gt;选择适合自己的版本进行安装。&lt;/p&gt;
+
+&lt;h4 id=&quot;vscode-功能简介及插件推荐&quot;&gt;VSCode 功能简介及插件推荐&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/postpic/icons.png&quot; style=&quot;float:right; max-height:150px&quot; /&gt;
+主界面左边有五个按钮，从上到下依次是：&lt;br /&gt;
+&lt;strong&gt;文件管理&lt;/strong&gt;：管理当前文件夹的文件，可以新建、删除、移动文件等&lt;br /&gt;
+&lt;strong&gt;查找&lt;/strong&gt;：在文件内进行查找，可进行相应的查找替换操作&lt;br /&gt;
+&lt;strong&gt;Git 资源控制&lt;/strong&gt;：连接部署 Git 相关&lt;br /&gt;
+&lt;strong&gt;代码调试&lt;/strong&gt;：主要用于代码开发的调试工作&lt;br /&gt;
+&lt;strong&gt;插件管理&lt;/strong&gt;：可打开、关闭、下载、删除相应插件&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;插件推荐&lt;/strong&gt;：Markdown All In One&lt;br /&gt;
+&lt;img src=&quot;/assets/images/postpic/md.png&quot; style=&quot;float:left; max-height:150px&quot; /&gt;
+点击主界面“插件管理”功能，查找该插件，下载并启用插件。
+该插件支持Markdown 语法高亮，并对 Markdown 文件增加预览和快捷键等功能。&lt;/p&gt;
+
+&lt;p&gt;完成安装工作并启用插件后，就试试自己探索用 Markdown 在VSCode 中进行创作啦！&lt;/p&gt;</content><author><name></name></author><summary type="html">代码化开发文档，当然也要用代码编辑器来写文档，本篇主要介绍微软旗下的 Visual Studio Code（简称VSCode）。</summary></entry><entry><title type="html">Git &amp;amp; Github 简介</title><link href="http://localhost:4000/blog/2019/05/28/Prepararion.html" rel="alternate" type="text/html" title="Git &amp; Github 简介" /><published>2019-05-28T10:28:00+08:00</published><updated>2019-05-28T10:28:00+08:00</updated><id>http://localhost:4000/blog/2019/05/28/Prepararion</id><content type="html" xml:base="http://localhost:4000/blog/2019/05/28/Prepararion.html">&lt;h4 id=&quot;版本控制工具-git&quot;&gt;版本控制工具 Git&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Git 是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理&lt;/p&gt;
@@ -21,6 +46,8 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;Github 主要用于项目托管和协同工作，也可以使用 Github Pages 将托管的内容发布为网页。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;课前需注册 Github 账号。&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;相关教程参考：&lt;a class=&quot;post&quot; href=&quot;https://www.runoob.com/w3cnote/git-guide.html&quot;&gt;Github 教程&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">版本控制工具 Git</summary></entry><entry><title type="html">写作利器 Markdown</title><link href="http://localhost:4000/blog/2019/05/05/Markdown-Introduction.html" rel="alternate" type="text/html" title="写作利器 Markdown" /><published>2019-05-05T10:28:00+08:00</published><updated>2019-05-05T10:28:00+08:00</updated><id>http://localhost:4000/blog/2019/05/05/Markdown-Introduction</id><content type="html" xml:base="http://localhost:4000/blog/2019/05/05/Markdown-Introduction.html">&lt;p&gt;提到写作工具，大部分人一定首先想到 Microsoft Word，它功能强大，集成度高，应用范围广，是日常生活中使用最多的。然而功能强大也经常带来认知负荷增加等问题。若应用于网络出版，由 word 文档到 HTML 文件的格式转换也将成为一大难题。&lt;br /&gt;
 所以有没有一种更简洁，更专注于网络发布的工具呢？这样的想法早已成为现实，要归功于 Markdown 的存在。2004年， John Gruber 发布首版 Markdown，允许人们”使用易读易写的纯文本格式编写文档，然后选择性转换成有效的 XHTML文档”。虽然已经有十多年历史，Markdown 似乎正在进入其发展的黄金时代，&lt;/p&gt;

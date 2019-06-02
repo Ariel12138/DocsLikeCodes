@@ -130,7 +130,7 @@ Version:	1.1
         // blog Carousel
         ======================================*/
         $(".blog-carousel").owlCarousel({
-            loop: true,
+            loop: false,
             autoplay: false,
             autoplayHoverPause: true,
             smartSpeed: 500,
